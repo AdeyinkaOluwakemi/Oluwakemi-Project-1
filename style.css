@@ -1,0 +1,116 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and basic layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  section#about {
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section */
+  section#projects {
+    padding: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  section#contact {
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #444;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    form input, form textarea, form button {
+      width: 100%;
+    }
+  }
+  
